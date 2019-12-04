@@ -14,7 +14,7 @@ public class Main {
         {
             if(temp instanceof Sport) //jesli zamieni sie kolejnosc ifów i elsifów to nie wykona się odpowiedni warunek!
             {
-                Sport sc = (Sport)temp; // np Sport jest instance of Car! TRUE
+                Sport sc = (Sport)temp; // np Sport jest instance of Car! TRUE!
                 sc.go();
                 sc.horn();
                 sc.turbo();
